@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react"
+import { ChildArea } from "./ChildArea";
 
 export default function App() {
 console.log("App");
@@ -10,10 +11,11 @@ setCount (count + 1) ;
 };
 return (
   <div className="App">
-<h1>Hello CodeSandbox</h1>
-<h2>Start editing to see some magic happen!</h2>
-<p>{count}</p>
-<button onClick={onClickCountUp}>カウントアップ</button>
+    <input />
+    <br />
+    <br />
+    <button>表示</button>
+    <ChildArea />
 </div>
 );
 }
